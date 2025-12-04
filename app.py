@@ -18,6 +18,15 @@ st.markdown("""
     padding: 1rem !important;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
+section[data-testid="stSidebar"] {
+    background-color: #c1d4f0 !important;  /* light blue */
+    color: #1A237E !important;
+    font-family: 'Segoe UI', sans-serif !important;
+}
+h1, h2, h3, p, label {
+    color: #1A237E !important;  /* ensure all text is visible */
+    font-family: 'Segoe UI', sans-serif !important;
+}
 
 /* DataFrames / tables */
 .stDataFrame {
