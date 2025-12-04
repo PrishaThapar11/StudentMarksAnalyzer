@@ -8,55 +8,61 @@ A beautifully interactive Streamlit dashboard for analyzing student performance 
 👉 App URL: Add your Streamlit link here after deployment
 
 ✨ Features
-📁 Upload Multiple Class CSVs
+### 📁 Upload Multiple Class CSVs
+- Upload **one or more CSV files** at once.
+- Auto-validate required columns.
+- Automatically calculate **Total**, **Percentage**, and **Grade**.
+- Each class is **stored separately** for easy access later.
 
-Upload one or more CSV files.
+### ✏️ Manual Data Entry
+- Enter **any number of students manually**.
+- Auto-generate **Roll Numbers**.
+- Clean and intuitive **UI for entering marks**.
+- Uses the **same processing pipeline** as CSV upload.
 
-Auto-validate columns.
+### 📊 Class & Student Analytics
+- View **summary metrics** for the class.
+- Prepare **visualization-ready datasets**.
+- Export processed datasets as **.CSV files** for sharing or reporting.
 
-Auto-calculate Total, Percentage, Grade.
+### 🎨 Aesthetic & Smooth UI
+- Custom **soft-colored backgrounds**.
+- Modern **Nunito font** for readability.
+- Clear highlights for **headers and sections**.
+- Neat layout using **columns** for a dashboard feel.
+- Interactive buttons with hover effects.
 
-Stores each class separately for later viewing.
+---
 
-✏️ Manual Data Entry
+## 🛠️ Tech Stack
+- **Python**
+- **Streamlit**
+- **Pandas**
+- **Plotly / Matplotlib** (optional for charts)
+- Designed for **easy deployment on Streamlit Community Cloud**
 
-Enter any number of students manually.
+---
 
-Auto-generate roll numbers.
+## 📌 How It Works
+1. **Upload CSV or manually enter data**.
+2. System **calculates totals, percentages, grades** automatically.
+3. View **processed data** and **analytics**.
+4. Export or download **clean, processed CSVs**.
+5. Navigate through the dashboard for **class and student insights**.
 
-Clean UI for entering marks.
+---
 
-Same processing pipeline as CSV.
+## 🎯 Highlights
+- Works with **multiple classes at once**.
+- Supports **dynamic data entry**.
+- Modern **UI + UX design** for effortless analysis.
+- **Lightweight and responsive**, deployable anywhere.
 
-📊 Class & Student Analytics
+---
 
-Summary metrics
-
-Visualization-ready structure
-
-Exportable processed datasets (.csv)
-
-🎨 Aesthetic & Smooth UI
-
-Custom background
-
-Modern fonts
-
-Highlights for headers
-
-Neat layout using columns
-
-🛠️ Tech Stack
-
-Python
-
-Streamlit
-
-Pandas
-
-Plotly / Matplotlib (optional for charts)
-
-Designed for easy deployment on Streamlit Community Cloud
+## 🔗 Deployment
+- Deploy on **Streamlit Community Cloud**.
+- Push the repository to **GitHub**, connect to Streamlit, and get a **live link** to share.
 
 📂 Project Structure
 📦 StudentMarksAnalyzer
