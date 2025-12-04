@@ -10,6 +10,21 @@ st.markdown("""
     background-color: #9fb9ed !important;  /* soft blue */
     background-image: linear-gradient(135deg, #9fb9ed, #dbe9f7);  /* optional gradient */
 }
+/* All main content cards */
+[data-testid="stBlock"] {
+    background-color: rgba(255, 255, 255, 0.85) !important;  /* semi-transparent white */
+    color: #1A237E !important;  /* dark font */
+    border-radius: 12px !important;
+    padding: 1rem !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* DataFrames / tables */
+.stDataFrame {
+    background-color: #E3F2FD !important;  /* light blue table background */
+    color: #1A237E !important;
+    border-radius: 8px !important;
+}
 
 
         /* Titles */
