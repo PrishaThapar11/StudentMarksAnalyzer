@@ -6,9 +6,11 @@ import streamlit as st
 st.markdown("""
     <style>
         /* Page Background */
-        .main {
-            background-color: #F7F9FC;
-        }
+        [data-testid="stAppViewContainer"] {
+    background-color: #9fb9ed !important;  /* soft blue */
+    background-image: linear-gradient(135deg, #9fb9ed, #dbe9f7);  /* optional gradient */
+}
+
 
         /* Titles */
         h1, h2, h3 {
