@@ -2,7 +2,7 @@
 
 A beautifully interactive Streamlit dashboard for analyzing student performance across multiple classes — CSV upload + manual entry + reports.
 
-<p align="center"> <img src="assets/banner.png" alt="Banner" width="80%"> </p>
+
 🚀 Live Demo
 
 👉 App URL: Add your Streamlit link here after deployment
