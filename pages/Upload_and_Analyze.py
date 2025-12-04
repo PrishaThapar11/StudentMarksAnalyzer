@@ -17,6 +17,22 @@ st.markdown("""
         .stApp {
             background-color: #9fb9ed !important;
         }
+        /* Buttons */
+.stButton>button {
+    background-color: #4FC3F7 !important;   /* lighter soft blue */
+    color: white !important;                 /* keep text visible */
+    border-radius: 8px !important;
+    padding: 0.6rem 1.2rem !important;
+    font-size: 16px !important;
+    border: none !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+/* Hover effect */
+.stButton>button:hover {
+    background-color: #29B6F6 !important;   /* slightly darker on hover */
+}
+
 
         /* Change main content area background */
         .block-container {
