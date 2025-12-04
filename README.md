@@ -1,4 +1,4 @@
-🌟 Student Marks Analyzer
+# 🌟 Student Marks Analyzer
 
 A beautifully interactive Streamlit dashboard for analyzing student performance across multiple classes — CSV upload + manual entry + reports.
 
