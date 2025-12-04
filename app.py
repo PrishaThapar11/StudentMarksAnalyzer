@@ -34,6 +34,21 @@ h1, h2, h3, p, label {
     color: #1A237E !important;
     border-radius: 8px !important;
 }
+/* Input fields text color */
+.stTextInput>div>div>input {
+    background-color: #FFFFFF !important;  /* keep the white background */
+    color: #1A237E !important;             /* dark text so it’s visible */
+    border-radius: 8px !important;
+    border: 1px solid #C5CAE9 !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+}
+
+/* Placeholder text color */
+.stTextInput>div>div>input::placeholder {
+    color: #9E9E9E !important;  /* grey placeholder */
+    opacity: 1 !important;
+}
 
 
         /* Titles */
