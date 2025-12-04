@@ -4,8 +4,8 @@ A beautifully interactive Streamlit dashboard for analyzing student performance 
 
 
 🚀 Live Demo
+👉 App URL: [Live Demo](https://studentmarksanalyzer-rcxwpcxvnbnp3m6qmehkgs.streamlit.app/Upload_and_Analyze)
 
-👉 App URL: Add your Streamlit link here after deployment
 
 ✨ Features
 ### 📁 Upload Multiple Class CSVs
